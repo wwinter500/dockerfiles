@@ -1,0 +1,5 @@
+#use tensorflow 2.0 - gpu version as basic image
+FROM tensorflow\tensorflow:2.0.0-gpu-py3-jupyter
+
+#lib needed included: jupyter notebook, numpy, pandas, python3
+RUN apt-get update
